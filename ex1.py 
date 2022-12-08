@@ -1,0 +1,10 @@
+nums2 = [1, 3, 5, 7, 8]
+
+def positive_to_negative (nums):
+
+    expected_output = []
+    for num in nums:
+        expected_output.append(num-(num+num))
+    return expected_output
+
+positive_to_negative(nums2)
